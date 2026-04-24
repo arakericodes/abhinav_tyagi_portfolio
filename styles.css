@@ -14,9 +14,21 @@ body {
   color: #3c948e;
   scroll-behavior: smooth;
   padding-top: 60px; /* adjust based on navbar height */
+  font-size: 16px; /* base */
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
 }
 /* NAV */
 nav {
@@ -52,6 +64,7 @@ nav a {
   text-decoration: none;
   position: relative;
   transition: color 0.2s ease;
+  font-size:25px;
 }
 nav a::after {
   content: "";
@@ -383,7 +396,7 @@ section {
 }
 
 .card {
-  border: 3px solid black;
+  border: 3px solid #3c948e;
   padding: 20px;
   width: 250px;
   transition: transform 0.3s;
