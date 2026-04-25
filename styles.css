@@ -135,7 +135,7 @@ nav a:hover::after {
   width: 70%;
   height: 400px;
   margin: 0 auto;
-  border: 3px solid black;
+  border: 3px solid white;
   overflow: hidden;
 }
 
