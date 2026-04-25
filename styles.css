@@ -88,7 +88,7 @@ nav a:hover::after {
 /* HERO */
 #hero {
   height: 120vh; /* must be scrollable */
-  background: url('/bg5.jpg') no-repeat center/cover;
+  background: url('/bg7.jpg') no-repeat center/cover;
   background-attachment: fixed; /* core parallax */
   display: flex;
   justify-content: center;
